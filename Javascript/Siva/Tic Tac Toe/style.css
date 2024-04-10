@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #153131;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    color: #01BAEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameBtns {
+    height: 70vmin;
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #6A7FDB;
+    color: #931621;
+    height: 23vmin;
+    width: 23vmin;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10vmin;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#resetBtn {
+    border: none;
+    background-color: #01BAEF;
+    border-radius: 30px;
+    height: 5vmin;
+    width: 25vmin;
+    color: white;
+    font-size: 3vmin;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+}
+
+#newBtn {
+    border: none;
+    background-color: #01BAEF;
+    border-radius: 30px;
+    height: 5vmin;
+    width: 25vmin;
+    color: white;
+    font-size: 3vmin;
+}
+
+#newBtn:hover {
+    cursor: pointer;
+}
+
+#msg {
+    color: #E83F6F;
+    font-size: 18vmin;
+}
+
+.msgCont {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(243, 61, 61);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 80px;
+    line-height: 0;
+    color: rgb(225, 224, 231);
+}
+
+p.p1 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 20px;
+    line-height: 0;
+    color: rgb(225, 224, 231);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.DiaAll {
+    font-family: 'Lucida Sans Unicode';
+    letter-spacing: 2px;
+    line-height: 0;
+}
+
+h3.AbtDiaAll {
+    font-family: 'Lucida Sans Unicode';
+    line-height: 1.2;
+}
+
+h2.TheBurrow {
+    font-family: 'Lucida Sans Unicode';
+    letter-spacing: 2px;
+    line-height: 0;
+}
+
+h3.AbtTheBurrow {
+    font-family: 'Lucida Sans Unicode';
+    line-height: 1.2;
+}
