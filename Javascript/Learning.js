@@ -1,8 +1,9 @@
-let x = prompt("Hello");
-console.log("HELLO", x);
+let x = "Hello";
 
-let hello = (bro) => {
-  console.log(bro);
+function hello() {
+  console.log(x);
+}
+
+hello = () => {
+  console.log(x);
 };
-
-hello("brother");
